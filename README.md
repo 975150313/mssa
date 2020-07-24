@@ -8,6 +8,18 @@ Link to [Paper](https://abhinavsagar.github.io/files/sem_seg.pdf).
 
 The dataset can be downloaded from [here](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/).
 
+Set up the folders in the following manner:
+
+```
+├── "dataset_name"                   
+|   ├── train
+|   ├── train_labels
+|   ├── val
+|   ├── val_labels
+|   ├── test
+|   ├── test_labels
+```
+
 ## Network Architecture
 
 ![roc-auc](images/img1.png)
