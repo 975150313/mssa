@@ -4,6 +4,20 @@ Code for the paper `Semantic Segmentation With Multi Scale Spatial Attention For
 
 Link to [Paper](https://abhinavsagar.github.io/files/sem_seg.pdf).
 
+## Abstract
+
+In this paper, we present a novel neural network using multi scale feature fusion at
+various scales for accurate and efficient semantic image segmentation. We have
+used dilated convolutional layers in downsampling part, transposed convolutional
+layers in the upsampling part and used concat layers to merge them. We used skip
+connections in between alternate blocks which are comprised of convolutional and
+max pooling layers. We present an in depth theoretical analysis of our network
+with training and optimization details. We evaluated our network on the Camvid
+dataset using mean accuracy per class and Intersection Over Union (IOU) as the
+evaluation metrics on the test set. Our model outperforms previous state of the
+art networks on semantic segmentation achieving mean IOU value of 74.12 while
+running at >100 FPS.
+
 ## Data
 
 The dataset can be downloaded from [here](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/).
