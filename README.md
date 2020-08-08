@@ -4,6 +4,9 @@ Code for the paper `Semantic Segmentation With Multi Scale Spatial Attention For
 
 Link to [Paper](https://abhinavsagar.github.io/files/sem_seg.pdf).
 
+Link to [Blog](https://towardsdatascience.com/semantic-segmentation-with-multi-scale-spatial-attention-5442ac808b3e).
+
+
 ## Abstract
 
 In this paper, we present a novel neural network using multi scale feature fusion at
