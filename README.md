@@ -40,11 +40,11 @@ Set up the folders in the following manner:
 
 ## Usage
 
-Training: `python train.py`
+Training: `python code/train.py`
 
-Testing: `python test.py`
+Testing: `python code/test.py`
 
-Testing on a single image: `python predict.py`
+Testing on a single image: `python code/predict.py`
 
 ## Results
 
@@ -65,9 +65,11 @@ Testing on a single image: `python predict.py`
 If you find this code useful in your research, please consider citing the paper:
 
 ```
-@article{sagarsemantic,
+@article{sagar2020semantic,
   title={Semantic Segmentation With Multi Scale Spatial Attention For Self Driving Cars},
-  author={Sagar, Abhinav and Soundrapandiyan, RajKumar}
+  author={Sagar, Abhinav and Soundrapandiyan, RajKumar},
+  journal={arXiv preprint arXiv:2007.12685},
+  year={2020}
 }
 ```
 
